@@ -18,7 +18,9 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
-} as IconMapping;
+  'add.circle.fill': 'add',
+  'a.circle.fill': 'circle', // mapped to MaterialIcons 'circle' icon
+} as Partial<IconMapping>;
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
