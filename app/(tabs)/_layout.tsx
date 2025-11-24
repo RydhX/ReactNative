@@ -52,6 +52,20 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="location"
+        options={{
+          title: "Lokasi",
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="map"
+        options={{
+          title: "Peta",
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="chevron.left.forwardslash.chevron.right" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
